@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  /* Disable Next.js development indicator button / logo in browser */
+  devIndicators: false,
+
   /* config options here */
   experimental: {
     agentFeedback: true,
